@@ -12,4 +12,4 @@ function staticFileServer(req, res) {
 app.get('/', staticFileServer);
 app.get('/public/style.css', staticFileServer);
 
-app.listen(4000)
+app.listen(6000)
